@@ -1,0 +1,12 @@
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #16a085;
+    --secondary: #9b59b6;
+    --tertiary: #e74c3c;
+}
