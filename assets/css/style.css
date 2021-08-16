@@ -6,12 +6,13 @@
 }
 
 :root {
-    --primary: #16a085;
-    --secondary: #9b59b6;
-    --tertiary: #95a5a6;
+    --primary: #95a5a6;
+    --secondary: #2980b9;
+    --tertiary: #55efc4;
+    --quarternary: #2d3436;
 }
 
 body {
-    color: var(--tertiary);
+    color: var(--secondary);
     font-family: Arial, Helvetica, sans-serif;
 }
