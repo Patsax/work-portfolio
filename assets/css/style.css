@@ -18,6 +18,53 @@ body {
 }
 
 /* header style start */
+header {
+    padding: 20px 30px;
+    background-color: var(--quarternary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    border-radius: 15px;
+}
 /* header style end */
 
 /* footer style start */
