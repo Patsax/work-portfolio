@@ -68,7 +68,35 @@ header nav ul li a:hover {
 /* header style end */
 
 /* footer style start */
+footer {
+    background: var(--primary);
+    width: 100%;
+    padding: 20px 15px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
 /* footer style end */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.main > h2 {
+    flex: 0 0 15%;
+    text-align: right;
+    border-right: 5px solid var(--tertiary);
+    padding-right: 10px;
+}
+
+.main div {
+    flex: 0 0 75%;
+}
 
 /* jumbotron style start */
 /* jumbotron style start */
