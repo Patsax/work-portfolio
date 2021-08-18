@@ -1,9 +1,5 @@
 /* general */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 :root {
     --primary: #95a5a6;
@@ -102,6 +98,10 @@ footer h2 {
 /* jumbotron style start */
 
 /* about me style start */
+.mepic {
+    height: 200px;
+    width: 200px;
+}
 /* about me style end */
 
 /* my work style start */
