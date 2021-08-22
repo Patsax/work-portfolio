@@ -107,11 +107,6 @@ header nav ul li a:hover {
     font-size: 40px;
 }
 
-.place-holder {
-    background-size: cover;
-    background-position: center;
-}
-
 .flex-item {
     display: flex;
     align-items: flex-end;
@@ -121,10 +116,11 @@ header nav ul li a:hover {
 
 .flex-item:first-child {
     flex-basis: 100%;
-    min-height: 450px;
+    min-height: 350px;
 }
 
 .card {
+    background-image: url(https://images.app.goo.gl/1Gh773E6rDnZqp9z5);
     background-size: cover;
     background-position: center;
     display: flex;
