@@ -13,14 +13,13 @@ body {
 
 /* header style start */
 header {
+    margin: auto;
     padding: 20px 30px;
     background-color: var(--quarternary);
-    display: flex;
-    justify-content: space-between;
+    /* display: inline-flex;
     flex-wrap: wrap;
+    justify-content: space-between; */
     background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
 }
 
 header h1 {
@@ -40,7 +39,7 @@ header nav {
 }
 
 header nav ul {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -157,11 +156,12 @@ footer h2 {
 
 footer a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--tertiary);
 }
 
 footer ul {
     margin: 7px 0;
+    color: var(--primary);
 }
 /* footer style end */
 
@@ -169,7 +169,7 @@ footer ul {
     header {
         padding-bottom: 0;
         justify-content: center;
-        position: relative;
+        /* position: relative; */
     }
 
     header h1 {
@@ -180,7 +180,7 @@ footer ul {
     header nav ul {
         margin-top: 20px;
         width: 100%;
-        justify-content: center;
+        align-content: center;
     }
 
     header nav ul li a {
