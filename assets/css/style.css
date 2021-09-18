@@ -1,3 +1,10 @@
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary: #95a5a6;
     --secondary: #2980b9;
@@ -6,20 +13,23 @@
 }
 
 body {
-    min-width: 320px;
     background-color: var(--primary);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+/* general end */
 
 /* header style start */
 header {
-    margin: auto;
     padding: 20px 30px;
+    width: 100%;
     background-color: var(--quarternary);
-    /* display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; */
-    background-size: cover;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -39,7 +49,7 @@ header nav {
 }
 
 header nav ul {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -81,10 +91,7 @@ header nav ul li a:hover {
 
 #me {
     height: 200px;
-    width: 140px;
     margin-right: 8px;
-    display: inline-block;
-    border: 5px solid var(--secondary)
 }
 
 .main div p {
@@ -113,7 +120,8 @@ header nav ul li a:hover {
     display: flex;
     align-items: flex-end;
     flex-basis: calc(50% - 10px);
-    border: 5px solid var(--secondary)
+    border: 5px solid var(--secondary);
+    margin: 5px;
 }
 
 .flex-item:first-child {
@@ -122,16 +130,34 @@ header nav ul li a:hover {
 }
 
 .card {
-    background-image: url(https://images.app.goo.gl/1Gh773E6rDnZqp9z5);
-    background-size: cover;
-    background-position: center;
     display: flex;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: space-around;
     color: var(--tertiary);
+    background-image: url("https://lh3.googleusercontent.com/proxy/C49W2rEgqKu0JnQFuTkhkqE9GFmmABp_Nqu-5ICeeQBgFwLjCgbyX3T_MhLAtjPrkXLG4gGNzcHJhrAr9ye3VWmpf4n4h-seMuC4-5BJHyms-e5RhLymlIMtUYD2Gw");
+    background-size: cover;
+    z-index: -1;
     opacity: 0.75;
+}
+
+#project2 {
+    background-image: url("./images/git-it-done-screen-shot.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+#project3 {
+
+}
+
+#project4 {
+
+}
+
+#project5 {
+
 }
 
 .card:hover {
@@ -165,11 +191,11 @@ footer ul {
 }
 /* footer style end */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
         justify-content: center;
-        /* position: relative; */
+        position: relative; 
     }
 
     header h1 {
@@ -192,20 +218,15 @@ footer ul {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .card {
         width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 575px) {
     .card {
         width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 320px) {
-    .card {
-        width: 100%;
-    }
-}
