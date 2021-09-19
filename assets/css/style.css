@@ -143,21 +143,27 @@ header nav ul li a:hover {
 }
 
 #project2 {
-    background-image: url("./images/git-it-done-screen-shot.jpg");
+    background-image: url("./images/git-it-done-screen.png");
     background-size: cover;
     z-index: 0;
 }
 
 #project3 {
-
+    background-image: url("./images/workday-schedule-screen.png");
+    background-size: cover;
+    z-index: 0;
 }
 
 #project4 {
-
+    background-image: url("./images/run-buddy-screen.png");
+    background-size: cover;
+    z-index: 0;
 }
 
 #project5 {
-
+    background-image: url("images/horiseon-screen.png");
+    background-size: cover;
+    z-index: 0;
 }
 
 .card:hover {
