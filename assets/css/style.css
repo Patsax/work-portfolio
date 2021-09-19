@@ -136,32 +136,32 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: space-around;
     color: var(--tertiary);
-    background-image: url("https://lh3.googleusercontent.com/proxy/C49W2rEgqKu0JnQFuTkhkqE9GFmmABp_Nqu-5ICeeQBgFwLjCgbyX3T_MhLAtjPrkXLG4gGNzcHJhrAr9ye3VWmpf4n4h-seMuC4-5BJHyms-e5RhLymlIMtUYD2Gw");
+    background-image: url("");
     background-size: cover;
     z-index: -1;
     opacity: 0.75;
 }
 
 #project2 {
-    background-image: url("./images/git-it-done-screen.png");
+    background-image: url("../images/git-it-done-screen.png");
     background-size: cover;
     z-index: 0;
 }
 
 #project3 {
-    background-image: url("./images/workday-schedule-screen.png");
+    background-image: url("../images/workday-schedule-screen.png");
     background-size: cover;
     z-index: 0;
 }
 
 #project4 {
-    background-image: url("./images/run-buddy-screen.png");
+    background-image: url("../images/run-buddy-screen.png");
     background-size: cover;
     z-index: 0;
 }
 
 #project5 {
-    background-image: url("images/horiseon-screen.png");
+    background-image: url("../images/horiseon-screen.png");
     background-size: cover;
     z-index: 0;
 }
