@@ -94,14 +94,15 @@ header nav ul li a:hover {
     margin-right: 8px;
 }
 
-.main div p {
+/* .main div p {
     display: inline-flex;
-}
+} */
 
 .flex-container {
     display:inline-flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 75%;
 }
 
 #main-project {
@@ -136,7 +137,7 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: space-around;
     color: var(--tertiary);
-    background-image: url("");
+    background-image: url("../images/AdobeStock_279615016.jpeg");
     background-size: cover;
     z-index: -1;
     opacity: 0.75;
@@ -216,23 +217,24 @@ footer ul {
     }
 
     header nav ul li a {
-        font-size: 20px;
-    }
-
-    .card {
-        width: 50%;
+        font-size: 1rem;
     }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .card {
         width: 100%;
     }
-} */
+}
 
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .card {
         width: 100%;
     }
-} */
+}
 
+@media screen and (max-width: 425px) {
+    .card {
+        width: 100%;
+    }
+}
