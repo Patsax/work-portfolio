@@ -69,16 +69,14 @@ header nav ul li a:hover {
 }
 /* header style end */
 
-
+/* main body style start */
 .main {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
 }
 
 .main > h2 {
-    flex: 0 0 15%;
     text-align: right;
     border-right: 5px solid var(--tertiary);
     padding-right: 10px;
@@ -89,8 +87,20 @@ header nav ul li a:hover {
 }
 
 #me {
-    height: 200px;
+    height: 150px;
     margin-right: 8px;
+    float: left;
+}
+
+.bio {
+    /* display: flex; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+
+.bio p{
+    
 }
 
 .flex-container {
@@ -101,8 +111,6 @@ header nav ul li a:hover {
 }
 
 .flex-item {
-    display: flex;
-    align-items: flex-end;
     flex-basis: calc(50% - 10px);
     border: 5px solid var(--secondary);
     margin: 5px;
@@ -110,8 +118,8 @@ header nav ul li a:hover {
 
 .flex-item:first-child {
     flex-basis: 100%;
-    min-height: 350px;
-}
+    min-height: 250px;
+} 
 
 .card {
     display: flex;
@@ -159,9 +167,14 @@ header nav ul li a:hover {
     z-index: 0;
 }
 
+.card h2, h3 {
+    padding: 5px;
+}
+
 .card:hover {
     opacity: 1;
 }
+/* main body style end */
 
 /* footer style start */
 footer {
@@ -186,10 +199,11 @@ footer a {
 
 footer ul {
     margin: 7px 0;
+    list-style: none;
 }
 /* footer style end */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 981px) {
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -218,13 +232,37 @@ footer ul {
     }
 }
 
-@media screen and (max-width: 575px) {
-    .card {
+@media screen and (max-width: 576px) {
+    header, footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main > h2 {
+        flex: 0 0 15%;
         width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: 5px solid var(--tertiary);
+        margin-bottom: 5px;
+        padding: 0 0 5px 0;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    #me {
+        align-content: center;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 476px) {
     .card {
         width: 100%;
     }
