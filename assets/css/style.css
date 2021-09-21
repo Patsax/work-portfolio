@@ -18,7 +18,7 @@ body {
 }
 
 section {
-    padding: 60px;
+    padding: 30px;
 }
 /* general end */
 
@@ -72,9 +72,8 @@ header nav ul li a:hover {
 
 .main {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
 }
 
@@ -94,27 +93,11 @@ header nav ul li a:hover {
     margin-right: 8px;
 }
 
-/* .main div p {
-    display: inline-flex;
-} */
-
 .flex-container {
-    display:inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     max-width: 75%;
-}
-
-#main-project {
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--tertiary);
-    font-size: 40px;
 }
 
 .flex-item {
@@ -142,6 +125,15 @@ header nav ul li a:hover {
     z-index: -1;
     opacity: 0.75;
 }
+
+/* #main-project {
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+} */
 
 #project2 {
     background-image: url("../images/git-it-done-screen.png");
@@ -175,6 +167,7 @@ header nav ul li a:hover {
 footer {
     padding: 20px 30px;
     background-color: var(--quarternary);
+    color: var(--primary);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -184,7 +177,6 @@ footer h2 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary);
 }
 
 footer a {
@@ -194,7 +186,6 @@ footer a {
 
 footer ul {
     margin: 7px 0;
-    color: var(--primary);
 }
 /* footer style end */
 
