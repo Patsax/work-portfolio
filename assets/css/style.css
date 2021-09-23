@@ -130,14 +130,15 @@ header nav ul li a:hover {
     opacity: 0.75;
 }
 
-/* #main-project {
+#main-project {
+    background-image: url("../images/Night-Picks-screenshot.png");
     background-size: cover;
     background-position: top;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 40px;
-} */
+    font-size: 40px; */
+}
 
 #project2 {
     background-image: url("../images/git-it-done-screen.png");
