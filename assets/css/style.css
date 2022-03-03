@@ -93,9 +93,7 @@ header nav ul li a:hover {
 }
 
 .bio {
-    /* display: flex; */
     align-items: center;
-    /* flex-wrap: wrap; */
     width: 100%;
 }
 
@@ -112,11 +110,6 @@ header nav ul li a:hover {
     margin: 5px;
 }
 
-.flex-item:first-child {
-    flex-basis: 100%;
-    min-height: 250px;
-} 
-
 .card {
     display: flex;
     width: 100%;
@@ -130,14 +123,22 @@ header nav ul li a:hover {
     opacity: 0.75;
 }
 
+.card a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--tertiary);
+}
+
+.card a:hover {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    border-radius: 15px;
+}
+
 #main-project {
     background-image: url("../images/h-booker-screen.png");
     background-size: cover;
     background-position: top;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 40px; */
 }
 
 #project2 {
@@ -159,7 +160,7 @@ header nav ul li a:hover {
 }
 
 #project5 {
-    background-image: url("../images/horiseon-screen.png");
+    background-image: url("../images/Taskinator-screen.png");
     background-size: cover;
     z-index: 0;
 }
