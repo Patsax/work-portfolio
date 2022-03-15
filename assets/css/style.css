@@ -120,18 +120,23 @@ header nav ul li a:hover {
     background-image: url("../images/AdobeStock_279615016.jpeg");
     background-size: cover;
     z-index: -1;
-    opacity: 0.75;
+}
+
+.card h2, h3 {
+    padding: 5px;
 }
 
 .card a {
     padding: 10px 15px;
     text-decoration: none;
     color: var(--tertiary);
+    background-color: var(--secondary);
+    border-radius: 15px;
 }
 
 .card a:hover {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
     border-radius: 15px;
 }
 
@@ -145,6 +150,11 @@ header nav ul li a:hover {
     background-image: url("../images/Night-Picks-screenshot.png");
     background-size: cover;
     z-index: 0;
+    color: var(--secondary);
+}
+#project2 h3 {
+    background-color: var(--tertiary);
+    border-radius: 15px;
 }
 
 #project3 {
@@ -157,20 +167,17 @@ header nav ul li a:hover {
     background-image: url("../images/workday-schedule-screen.png");
     background-size: cover;
     z-index: 0;
+    color: var(--secondary);
+}
+#project4 h3 {
+    background-color: var(--tertiary);
+    border-radius: 15px;
 }
 
 #project5 {
     background-image: url("../images/Taskinator-screen.png");
     background-size: cover;
     z-index: 0;
-}
-
-.card h2, h3 {
-    padding: 5px;
-}
-
-.card:hover {
-    opacity: 1;
 }
 /* main body style end */
 
